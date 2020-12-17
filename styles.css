@@ -1,0 +1,285 @@
+/* ---------------------------Main---------------------- */
+*{
+    padding:0;
+    margin:0;
+}
+#header{
+    background-image:url(images/featuregym.jpg) ;
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+/*-------------------------- navbar ----------------------*/
+
+#logo{
+    height:45px;
+    padding-left:25px;
+    padding-right:15px;
+}
+#logo-text{
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5rem;
+}
+#navbar{
+    z-index: 1;
+    width:100%;
+    box-shadow: 0 9px 10px -4px black;
+    background-color:#eeedee; 
+    padding: 0px;
+}
+#logo-text{
+    color:rgb(0, 0, 0);    
+}
+.navbar-nav{
+    margin-left:auto;
+}
+.navbar-nav li a{
+    font-family: 'Heebo', sans-serif;
+    color: rgb(0, 0, 0)!important;
+    /* opacity:1; */
+    font-size:1rem;
+}
+.navbar-toggler{
+    color:rgb(0, 0, 0);
+}
+
+/* ----------------------Welcome Text---------------------- */
+
+.welcome{
+    background-color:rgb(255, 255, 255,1);
+    padding:50px 100px;
+    margin-top: -140px;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.4) ;
+    border-radius:7px;
+    background: linear-gradient(to bottom, #fffff3, #fdffff);
+}
+.welcome p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.welcome h2{
+    font-family: 'Overpass', sans-serif;
+}
+.home-btn{
+    margin-top:10px;
+}
+#welcome-btn{
+    text-decoration: none;
+}
+
+/* ---------------------About Section----------------------- */
+
+#about{
+    padding-top:4%;
+}
+#about-img{
+    width:80%;
+    height:85%;
+    margin-left:10%;
+}
+#about-para{
+    padding-top: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#about-para h3{
+    font-family: 'Overpass', sans-serif;
+    margin-bottom:10px;   
+}
+.embed-responsive-item {
+    height: 300px;
+    width: 550px;
+}
+
+/* ----------------------Services Section---------------------- */
+
+#services{
+    margin-top:4%;
+    padding-top:40px;
+    background-color:rgb(241, 237, 237);   
+}
+#services img{
+    padding-bottom: 20px;;
+}
+#s-h{
+    font-size:30px;
+    text-align:center;  
+    padding-bottom:20px;
+    padding-top:10px;
+}
+#services-hr{
+    margin-top:10px;
+    margin-bottom:60px;
+}
+#services .container .row{
+    padding-bottom:50px;
+}
+#bodybuilding-services-img{
+    width:50px; 
+}
+#boxing-services-img{
+    width:50px;
+}
+#wrestling-services-img {
+    width: 55px;
+    /* height: 80px; */
+    margin-bottom:5px;
+}
+#services .col-md-4 p{
+    padding-right:15px;
+    text-align:justify;
+    margin-bottom:20px;
+}
+
+/* -----------------------Feature Section----------------------- */
+
+#features{
+    padding-top:100px;
+    padding-bottom:100px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/Fitnessbg2.jpg);
+    background-position:center;
+    background-size:cover;
+    background-attachment:scroll;
+    color:#fff;
+}
+.features .col-md-6{
+    padding:20px;
+}
+.features-box{
+    height:120px;
+}
+.features-box .feature-left{
+    height:120px;
+    width:20%;
+    float:left;
+}
+.features-box .feature-left .fas{
+    padding-top:13px;
+    font-size:50px;
+}
+.feature-box .feature-right{
+    height:120px;
+    width:80%;
+    float:left;
+}
+.feature-right{
+    padding-bottom:30px;
+    margin:10px;
+}
+
+/* -----------------------------Reviews------------------------- */
+#reviews {
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color:rgb(250, 250, 250)
+}
+#review-heading{
+    color:#00acee;
+    margin-bottom:20px;
+}
+#reviews .col-md-4{
+    padding:10px 30px;
+}
+#reviews img{
+    width:50px;
+    border-radius:50%;
+    float:left;
+    margin-left:-30px;
+    margin-top: -40px;
+}
+.review{
+    font-size:16px;
+    padding:20px 10px 10px 30px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color:rgb(255, 255, 255);
+}
+.fa-twitter{
+    color: #00acee;
+}
+.review span{
+    color: #00acee;
+    font-weight:600;
+}
+#review-para{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:15px;
+    padding-bottom:50px;
+    text-align:center;
+    font-weight:400;
+    font-size:17px;
+}
+#middle{
+    margin-top:-35px;
+    margin-bottom:-20px;
+}
+
+/* -----------------------Subscribe Section----------------------- */
+
+.subscribe{
+    margin-bottom:-120px;
+    padding:40px 30px;
+    background: linear-gradient(rgb(144, 54, 156),rgb(98, 54, 156));
+    border-radius:10px;
+    position:relative;
+}
+.subscribe-text{
+    color:white;
+}
+.input-group{
+    max-width: 700px;
+    margin:auto;
+}
+
+/* -------------------------Footer Section------------------------- */
+#footer{
+    margin-top:80px;
+    padding:100px;
+    padding-bottom:10px;
+    background-color:rgb(231, 231, 231);
+    text-align:center;
+    
+}
+#footer-img{
+    width:70px;
+    margin:10px;
+    padding-bottom:10px;
+    margin-top:-10px;
+}
+.footer-heading{
+    padding-bottom:20px;
+    font-size:15px;
+    text-align:left;
+    color:rgb(34, 34, 196);
+}
+#footer p{
+    text-align:left;
+    font-size:12px;
+    color:rgb(34, 34, 196);
+}
+#footer-contact-logos{
+    font-size:14px;
+    padding-right:10px;
+}
+#footer .container .row .col-md-3{
+     padding-left:50px;
+}
+#footer-contact-logos-twitter{
+    color:rgb(34, 34, 196);
+    padding-right:10px;
+}
+#footer .container hr{
+    margin-bottom:20px;
+}
+#footer .container .copyright{
+    
+    padding-top:10px;
+    text-align:center;
+}
+
+
+
+
+
+
