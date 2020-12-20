@@ -316,6 +316,13 @@
         height:186px;
         margin-right:20px;
     }
+    #footer{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    #footer .container .copyright{
+        padding-top:0px;
+    }
     
 }
 @media only screen and (max-width:375px){
@@ -327,13 +334,7 @@
     .hide-when-phone{
         display:none;
     }
-    #footer{
-        padding-left:10px;
-        padding-right:10px;
-    }
-    #footer .container .copyright{
-        padding-top:0px;
-    }
+    
     
 }
 
