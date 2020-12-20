@@ -323,6 +323,9 @@
     #footer .container .copyright{
         padding-top:0px;
     }
+    .hide-when-phone{
+        display:none;
+    } 
     
 }
 @media only screen and (max-width:375px){
@@ -330,16 +333,6 @@
     .features-box .feature-left{
         height:202px;
         margin-right:20px;
-    }
-    .hide-when-phone{
-        display:none;
-    }  
-    #footer{
-        padding-left:10px;
-        padding-right:10px;
-    }
-    #footer .container .copyright{
-        padding-top:0px;
     }
 }
 
